@@ -13,7 +13,7 @@ function calculateFLAMES() {
 
 function getFLAMESResult(name1, name2) {
     let count = getCommonCharacterCount(name1, name2);
-    const flames = ['F', 'L', 'A', 'M', 'E', 'S'];
+    const flames = ['FRIENDS LIKE "DAVA & SURIYA"', 'LOVE LIKE "ROMRO & JULIET"', 'AFFECTION "TYPE OF LOVE AND KINDNESS"', 'MARRIAGE "SHARING EVERYTHING"', 'ENEMIES LIKE "TOM & JERRY"', 'SISTER LIKE "UNIVERSE"'];
 
     while (flames.length > 1) {
         const index = (count - 1) % flames.length;
